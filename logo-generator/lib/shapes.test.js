@@ -1,5 +1,7 @@
+// Import the Circle, Triangle, and Square classes for testing
 const { Circle, Triangle, Square } = require('./shapes');
 
+// Test that the Circle class renders the correct SVG elements with given parameters
 test('Circle renders correctly', () => {
   const shape = new Circle('red');
   const svg = shape.render('A', 'black');
@@ -8,6 +10,7 @@ test('Circle renders correctly', () => {
   expect(svg).toContain('>A<');
 });
 
+// Test that the Triangle class renders the correct SVG elements with given parameters
 test('Triangle renders correctly', () => {
   const shape = new Triangle('blue');
   const svg = shape.render('B', 'white');
@@ -16,6 +19,7 @@ test('Triangle renders correctly', () => {
   expect(svg).toContain('>B<');
 });
 
+// Test that the Square class renders the correct SVG elements with given parameters
 test('Square renders correctly', () => {
   const shape = new Square('green');
   const svg = shape.render('C', 'yellow');
