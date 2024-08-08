@@ -37,4 +37,4 @@ Shape Color: "#FFA500" (Orange)
 Output:
 Generates logo.svg with a blue text "ABC" centered inside an orange circle.
 
-Screen Record: https://drive.google.com/file/d/1mGTv8TRGWilVNU2Rnt-hAZnwPJqYHFI6/view?usp=sharing
+Screen Record: https://drive.google.com/file/d/1lAnTZvWooOALoBDWbTFh-nuhsZG_a0yC/view
